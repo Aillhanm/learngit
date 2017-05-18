@@ -1,0 +1,60 @@
+
+Administrator@Alizanskull-PC MINGW32 ~
+$ pwd
+/c/Users/Administrator
+
+Administrator@Alizanskull-PC MINGW32 ~
+$ ssh-keygen -t rsa -C "1782466544@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Administrator/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Administrator/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:YqKiuRmw43el+eLaL0mVhYqbzfNz/kD3xJp6ZD7xJCo 1782466544@qq.com
+The key's randomart image is:
++---[RSA 2048]----+
+|        .        |
+|       . .       |
+|    . . o        |
+|   . . o    .    |
+|.   * + S. . o   |
+|.. + B o. .==.   |
+|= . . B  .=o=.   |
+|o* ..B E oo+ .   |
+|=o..+o=o=oo..    |
++----[SHA256]-----+
+
+Administrator@Alizanskull-PC MINGW32 ~
+$ ^C
+
+Administrator@Alizanskull-PC MINGW32 ~
+$ cd learngit
+
+Administrator@Alizanskull-PC MINGW32 ~/learngit (master)
+$ pwd
+/c/Users/Administrator/learngit
+
+Administrator@Alizanskull-PC MINGW32 ~/learngit (master)
+$ git remote add origin https://github.com/Aillhanm/learngit.git
+fatal: remote origin already exists.
+
+Administrator@Alizanskull-PC MINGW32 ~/learngit (master)
+$ git push -u origin master
+The authenticity of host 'github.com (192.30.255.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.255.113' (RSA) to the list of known hosts.
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (17/17), 2.87 KiB | 0 bytes/s, done.
+Total 17 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To git@github.com:Aillhanm/learngit.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Administrator@Alizanskull-PC MINGW32 ~/learngit (master)
+
