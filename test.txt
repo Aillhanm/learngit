@@ -1,5 +1,0 @@
-I creat this file is to test the delete operation
-
-what will i see
-
-let's test
