@@ -95,7 +95,7 @@ git is a distributed version control system
 Git is free software.
 
 Liu yi fei is my girl
-I love her and I want to fuck her
+I love her and I want to see her
 
 I see her today sicently with none words, but I really want to say something
 
